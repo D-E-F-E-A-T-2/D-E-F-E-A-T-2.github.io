@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+}
+
+header {
+    background-color: azure;
+    padding: 15px;
+    margin: 10;
+    border: 7px solid lightblue;
+    text-align: center;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+
+header:hover {
+    background-color: azure;
+    padding: 20px;
+    text-align: center;
+    text-decoration: solid;
+    color: blueviolet;
+}
+
+.image {
+    width: 430px;
+    margin: 40px;
+    border: 2px solid lightblue;
+    transition: 0.5s;
+}
+.image:hover {
+    width: 450px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.h3 {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.h4 {
+    margin-left: 26px;
+    margin-right: 26px;
+}
